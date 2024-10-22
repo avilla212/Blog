@@ -24,7 +24,7 @@ export default function LoginPage() {
               alt="Matcha logo"
               width={100}
               height={100}
-              className="hover:animate-bounce hover:spin-slow cursor-pointer" 
+              className="hover:motion-safe:animate-spin cursor-pointer" 
             />
           </div>
         </div>
@@ -73,12 +73,7 @@ export default function LoginPage() {
             >
               Sign In
             </button>
-            <button
-              type="submit"
-              className="bg-blue-600 text-white py-2 px-4 rounded shadow hover:bg-blue-700"
-            >
-              Sign In
-            </button>
+            
             </div>
             
           </div>  
