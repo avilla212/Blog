@@ -1,0 +1,7 @@
+Auth 
+- Authentication to check if user is who they say they are 
+- Authorization decides what parts of the app the user gets to see
+
+TODO:
+- finish login page 
+- test workign with AWS Lambda 

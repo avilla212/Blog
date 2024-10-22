@@ -7,21 +7,32 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
 }
 
-body {
+/* Header 1 all same font */
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Header 2 all same font */
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--foreground);
 }
+
+/* p tags */
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--foreground);
+}
+
